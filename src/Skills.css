@@ -1,0 +1,47 @@
+.SBG {
+  background-color: black;
+  padding: 40px 0;
+}
+
+.sn {
+  color: gray;
+  text-align: center;
+  padding: 20px;
+}
+
+.SBG1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+
+.container {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.container img {
+  border-radius: 10px;
+}
+.container span{
+  color: black;
+  background-color: rgb(164, 160, 160);
+  align-items: center;
+  padding: 6px;
+  border-radius: 25px;
+ 
+}
+.container h3 {
+  color: gray;
+  margin-bottom: 10px;
+}
